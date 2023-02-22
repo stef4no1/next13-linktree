@@ -1,0 +1,24 @@
+{
+    "name": "Stefano Straga",
+    "avatar": "twitterimage",
+    "links": [
+        {
+            "title": "My personal website",
+            "url": "https://github.com/stef4no1/stef4no1"
+        },
+        {
+            "title": "Vercel",
+            "url": "https://vercel.com/stef4no1"
+        }
+    ],
+    "socials": [
+        {
+            "title": "Twitter",
+            "url": "https://twitter.com/s1kr0"
+        },
+        {
+            "title": "Github",
+            "url": "https://github.com/stef4no1"
+        }
+    ]
+}
