@@ -4,22 +4,22 @@
     "links": [
         {
             "title": "My personal website",
-            "url": "https://github.com/stef4no1/stef4no1",
+            "href": "https://github.com/stef4no1/stef4no1",
             "image": "https://twitter.com/s1kr0/photo"
         },
         {
             "title": "Vercel",
-            "url": "https://vercel.com/stef4no1"
+            "href": "https://vercel.com/stef4no1"
         }
     ],
     "socials": [
         {
             "title": "Twitter",
-            "url": "https://twitter.com/s1kr0"
+            "href": "https://twitter.com/s1kr0"
         },
         {
             "title": "Github",
-            "url": "https://github.com/stef4no1"
+            "href": "https://github.com/stef4no1"
         }
     ]
 }

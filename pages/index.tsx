@@ -16,3 +16,13 @@ export default function Home() {
     </div>
   );
 }
+
+function LinkCard({ href, title, image}) {
+  return (
+    <a href={href} className="flex items-center p-4 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300">
+      <div className="flex flex-col">
+        <h2 className="font-bold text-lg">{title}</h2>
+      </div>
+    <a/>
+  );
+}
