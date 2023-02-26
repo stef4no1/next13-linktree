@@ -11,7 +11,7 @@ export default function Home() {
         width={96}
         height={96}
       />
-      <h1 className="font-bold mt-4 mb-8 text-xl">{data.name}</h1>
+      <h1 className="font-bold mt-4 mb-8 text-xl text-white">{data.name}</h1>
       {data.links.map((link) => (
         <LinkCard key={link.href} {...link}/>
       ))}
@@ -21,7 +21,7 @@ export default function Home() {
 
 function LinkCard({ href, title, image}: {href: string; title: string; image?: string}) {
   return (
-    <a href={href} className="flex items-center p-1 w-full rounded-md hover:scale-105 transition-all border border-gray-300 mb-3">
+    <a href={href} className="flex items-center p-1 w-full rounded-md hover:scale-105 transition-all bg-gray-100 mb-3">
       <div className="flex text-center">
         {image && (
           <Image
@@ -32,7 +32,7 @@ function LinkCard({ href, title, image}: {href: string; title: string; image?: s
             height={40}
           />
         )}
-        <h2 className="font-semibold w-full text-center">{title}</h2>
+        <h2 className="font-semibold w-full text-center text-gray-700">{title}</h2>
       </div>
     </a>
   );
