@@ -21,7 +21,7 @@ export default function Home() {
 
 function LinkCard({ href, title, image}: {href: string; title: string; image?: string}) {
   return (
-    <a href={href} className="flex items-center p-1 w-full rounded-md hover:scale-105 transition-all bg-gray-100 mb-3">
+    <a href={href} className="flex items-center p-1 w-full rounded-md hover:scale-105 transition-all bg-gray-100 mb-3 max-w-3xl">
       <div className="flex text-center w-full">
         <div className="w-10 h-10">
           {image && (
